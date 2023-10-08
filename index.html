@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splendor Bites</title>
+
+    <!-- swiper js css cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- main css file link -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- header section starts -->
+    <header>
+      <!-- <a href="#" class="logo"><img src="images/splendor_logo.jpg" alt="splendor_logo"></a> -->
+      <a href="#" class="logo"></a>
+
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#pastries">pastries</a>
+        <a href="#about">about</a>
+        <!-- <a href="#menu">menu</a> -->
+        <a href="#review">review</a>
+        <a href="#blog">blog</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- search form -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our weekend special</span>
+              <h3>sweet cakes</h3>
+              <p>
+                Explore our delectable cake collection and let us add a touch of
+                sweetness to your day.
+              </p>
+              <span class="home-price">&#8358;25,000</span>
+              <div><a href="#" class="btn order-btn">order now</a></div>
+            </div>
+            <div class="image image1">
+              <!-- <img src="images/home-image1.jpg" alt=""> -->
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our weekend special</span>
+              <h3>hamper</h3>
+              <p>
+                Delight that special person on their birthday with a gift basket
+                brimming with wonderful surprises.
+              </p>
+              <!-- <p>
+                Our peanut is crunchy, rich in protein, healthy fats, various
+                minerals and vitamins, Enjoy with family and friends
+              </p> -->
+              <!-- <p>Our peanuts are a timeless favorite, whether you're watching the game, sharing a snack with friends, or simply enjoying a moment of crunchy delight. </p> -->
+              <span class="home-price">&#8358;30,000</span>
+              <div><a href="#" class="btn order-btn">order now</a></div>
+            </div>
+            <div class="image image2">
+              <!-- <img src="images/home-image2.jpg" alt=""> -->
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our weekend special</span>
+              <h3>'big' chops</h3>
+              <p>
+                Experience a burst of flavors in every bite with our
+                irresistible 'Big' chops
+              </p>
+              <span class="home-price">&#8358;8,000</span>
+              <div><a href="#" class="btn order-btn">order now</a></div>
+            </div>
+            <div class="image image3">
+              <!-- <img src="images/home-image3.jpg" alt=""> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- pastries section starts -->
+    <section class="pastries" id="pastries">
+      <h3 class="sub-heading">our pastries</h3>
+      <h1 class="heading">fresh from our oven</h1>
+      <div class="box-container">
+        <!-- Menu 1 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_cake2.jpeg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>cakes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;18,500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <!-- Menu 2 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_peanut2.jpg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>crunchy peanuts</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;1,000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <!-- Menu 3 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_bigchops2.jpeg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>"Big" chops</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;1,200</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <!-- Menu 4 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_meatpie.jpeg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>meatpies</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;400</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <!-- Menu 5 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_fruitcakes.jpg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>fruit cakes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;1,200</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <!-- Menu 6 -->
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/products/splendor_popcorn.jpg" alt="" />
+          <!-- <span class="pastries-image">image comes here</span> -->
+          <h3>pop corn</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="price">&#8358;200</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <!-- pastries section ends -->
+
+    <!-- about us starts -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/splendor_logo.jpg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Experience the symphony of sweetness of pastry</h3>
+          <p>
+            <span class="brand-name">Splendor Bites </span> where pastry
+            perfection meets pure indulgence. Our dedicated team of skilled
+            pastry chefs creates heavenly delights using the finest ingredients.
+          </p>
+          <p>
+            We craft visually stunning and irresistibly delicious treats to make
+            your special occasions truly memorable. Experience the symphony of
+            sweetness just order us online today.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-naira-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>fast delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- about us ends -->
+
+    <!-- review section starts -->
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what our customers say</h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review-image1.jpg" alt="" />
+              <div class="user-info">
+                <h3>iamkrisefobi</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              I've fallen head over heels for the Splendor Bites. These bites
+              are the epitome of elegance and taste. The delicate layers of
+              pastry enveloping the sumptuous fillings create an unforgettable
+              treat.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review-image2.jpg" alt="" />
+              <div class="user-info">
+                <h3>affable homes</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              My taste buds have been forever transformed by the Splendor Bites.
+              These little bites of perfection are a testament to the dedication
+              and passion of the bakers.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/review-image4.jpg" alt="" />
+              <div class="user-info">
+                <h3>Amanze</h3>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              The Splendor Bites are a revelation. Each bite is a celebration of
+              flavor, with the perfect balance of sweetness and decadence. These
+              pastries are truly a masterpiece, and I find myself constantly
+              craving their exquisite taste.
+            </p>
+          </div>
+
+          <!-- <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/review-image4.jpg" alt="">
+                    <div class="user-info">
+                        <h3>chioma glory</h3>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium officia nemo quas, veritatis facere atque optio in et laborum, tempora fugiat totam omnis quos. Pariatur laboriosam numquam incidunt est id?</p>
+            </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">free and fast</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span>phone number</span>
+            <input type="number" placeholder="enter your number" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>email</span>
+            <input type="email" placeholder="please enter your email" />
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span>quantity</span>
+            <input type="number" placeholder="please specify your quantity" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>your address</span>
+            <textarea
+              name=""
+              placeholder="enter your address"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea
+              name=""
+              placeholder="enter your message"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+    <!-- order section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">Lagos</a>
+          <a href="#">Abuja</a>
+          <a href="#">Benin</a>
+          <a href="#">Enugu</a>
+          <a href="#">Awka</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#pastries">pastries</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+2349030309951</a>
+          <a href="#">+2349030309951</a>
+          <a href="#">krisfobbby@gmail.com</a>
+          <a href="#">splendorbites@gmail.com</a>
+          <a href="#">tedi estate, barracks junction, ojo, lagos</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">whatsapp</a>
+          <a href="#">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">twitter</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        copyright @ 2023 by <a href="#"><span>iamkrisefobi</span></a>
+      </div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- loader part -->
+    <!-- <div class="loader-container">
+    <img src="images/loader-main.gif" alt="">
+</div> -->
+
+    <!-- swiper js js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- main js file link -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
